@@ -27,7 +27,7 @@ class HomeController extends Controller
     {
 
         //$allAccount = User::all();
-        $allproducts= DB::select("SELECT * FROM goodshop.products order by id desc limit 8");
+        $allproducts= DB::select("SELECT * FROM products order by id desc limit 8");
 
         return view('home.index',array('products'=> $allproducts ));
     }
@@ -152,7 +152,7 @@ class HomeController extends Controller
     public function update(PersonalRequest $request)
     {
         //update table personal
-        $allproducts= DB::select("SELECT * FROM goodshop.products order by id desc limit 3");
+        $allproducts= DB::select("SELECT * FROM products order by id desc limit 3");
          $id = $request->input('id');
         $personal = Personal::find($id);
         if( is_null($personal))
