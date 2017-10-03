@@ -1,0 +1,23 @@
+diff a/resources/views/details.blade.php b/resources/views/details.blade.php	(rejected hunks)
+@@ -48,12 +48,21 @@
+ 							</div>
+ 						</div>
+ 				    <div class="product-image"> 
++<<<<<<< HEAD:resources/views/details.blade.php
+ 				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href="images/0001-2.jpg" title="Women Shorts" alt="Women Shorts">
+ 				           	<img src="images/0001-2.jpg" alt="Women Shorts" title="Women Shorts" />
+ 				        </a>
+ 				   </div>
+ 					<script type="text/javascript">
+ 						var prodGallery = jQblvg.parseJSON('{"prod_1":{"main":{"orig":"images/0001-2.jpg","main":"images/large/0001-2.jpg","thumb":"images/small/0001-2.jpg","label":""},"gallery":{"item_0":{"orig":"images/0001-2.jpg","main":"images/large/0001-2.jpg","thumb":"images/small/0001-2.jpg","label":""},"item_2":{"orig":"images/0001-5.jpg","main":"images/large/0001-5.jpg","thumb":"images/small/0001-5.jpg","label":""},"item_3":{"orig":"images/0001-3.jpg","main":"images/large/0001-3.jpg","thumb":"images/small/0001-3.jpg","label":""}},"type":"simple","video":false}}'),
++=======
++				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href="/images/{{$product->thumb1}}" title="Women Shorts" alt="Women Shorts">
++				           	<img src="/images/{{$product->thumb1}}" alt="Women Shorts" title="Women Shorts" />
++				        </a>
++				   </div>
++					<script type="text/javascript">
++						var prodGallery = jQblvg.parseJSON('{"prod_1":{"main":{"orig":"/images/details/{{$product->thumb1}}","main":"/images/large/{{$product->thumb1}}","thumb":"/images/small/{{$product->thumb1}}","label":""},"gallery":{"item_0":{"orig":"/images/details/{{$product->thumb1}}","main":"/images/large/{{$product->thumb1}}","thumb":"/images/small/{{$product->thumb1}}","label":""},"item_2":{"orig":"/images/details/{{$product->thumb2}}","main":"/images/large/{{$product->thumb2}}","thumb":"/images/small/{{$product->thumb2}}","label":""},"item_3":{"orig":"/images/details/{{$product->thumb3}}","main":"/images/large/{{$product->thumb3}}","thumb":"/images/small/{{$product->thumb3}}","label":""}},"type":"simple","video":false}}'),
++>>>>>>> Sửa lỗi css trang chi tiết và sửa hình trang products:resources/views/products/show.blade.php
+ 						    gallery_elmnt = jQblvg('.product-img-box'),
+ 						    galleryObj = new Object(),
+ 						    gallery_conf = new Object();

@@ -1,0 +1,11 @@
+diff a/.idea/workspace.xml b/.idea/workspace.xml	(rejected hunks)
+@@ -1,6 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
++<<<<<<< HEAD
++    <list default="true" id="3268e31a-ff2d-4bbc-ad8e-8955b1457cc8" name="Default" comment="">
++=======
+     <list default="true" id="093adf55-aac5-4c13-9c14-7f31c005d59e" name="Default" comment="">
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-hover-dropdown.min.js" />
+       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/test.css" />
